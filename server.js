@@ -1,5 +1,6 @@
 // server.js
 const path = require("path");
+// Expressアプリケーションの作成
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
